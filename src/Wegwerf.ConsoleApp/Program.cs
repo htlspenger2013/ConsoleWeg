@@ -9,9 +9,7 @@ namespace Wegwerf.ConsoleApp
     {
         public static void Main(string[] args)
         {
-            IList<int> list = new List<int>();
             ISet<int> set = new HashSet<int>();
-            Console.WriteLine("hallo");
 
             Random r = new Random();
             while(set.Count < 20) {
