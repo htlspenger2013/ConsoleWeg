@@ -10,9 +10,9 @@ namespace Wegwerf.ConsoleApp
         public static void Main(string[] args)
         {
             ISet<int> set = new HashSet<int>();
-
+            // unsinn
             Random r = new Random();
-            while(set.Count < 20) {
+            while(set.Count < 10) {
                 set.Add(r.Next(1, 21));
             }
             foreach (var item in set) {
