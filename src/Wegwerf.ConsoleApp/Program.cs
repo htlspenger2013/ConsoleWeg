@@ -9,6 +9,7 @@ namespace Wegwerf.ConsoleApp
     {
         public static void Main(string[] args)
         {
+            // 
             ISet<int> set = new HashSet<int>();
 
             Random r = new Random();
