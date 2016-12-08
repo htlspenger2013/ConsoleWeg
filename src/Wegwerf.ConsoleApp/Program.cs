@@ -16,6 +16,7 @@ namespace Wegwerf.ConsoleApp
                 set.Add(r.Next(1, 21));
             }
             foreach (var item in set) {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine(item);
             }
             Console.ReadKey();
