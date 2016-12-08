@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD154392-D1E8-4577-AC49-2A95F08EFFA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7F967AF-FA56-48F8-A812-323B4E92C989}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wegwerf.ConsoleApp", "src\Wegwerf.ConsoleApp\Wegwerf.ConsoleApp.xproj", "{E07DDF2C-28D2-475F-8B73-E7C86B844B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E07DDF2C-28D2-475F-8B73-E7C86B844B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07DDF2C-28D2-475F-8B73-E7C86B844B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07DDF2C-28D2-475F-8B73-E7C86B844B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07DDF2C-28D2-475F-8B73-E7C86B844B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E07DDF2C-28D2-475F-8B73-E7C86B844B70} = {CD154392-D1E8-4577-AC49-2A95F08EFFA2}
+	EndGlobalSection
+EndGlobal
